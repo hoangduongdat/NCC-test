@@ -26,6 +26,19 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-direction: row;
   margin-top: 40px;
   gap: 20px;
+}
+
+@media screen and (max-width: 768px) {
+
+  .listcard {
+    flex-direction: column;
+    row-gap: 30px;
+  }
+  .container {
+    padding: 0 40px;
+  }
+  
 }
