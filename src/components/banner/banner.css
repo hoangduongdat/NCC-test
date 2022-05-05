@@ -1,0 +1,19 @@
+.banner {
+    background-color: #EFEFEF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+    padding: 38px 180px;
+}
+
+.banner-header {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+.banner-content {
+    font-size: 16px;
+    line-height: 18.75px
+}

@@ -1,0 +1,11 @@
+.footer {
+    margin-top: 182px;
+    border-top: 1px solid #DEDEDE;
+    height: 79px;
+    display: flex;
+    align-items: center;
+}
+.footer >span {
+    color:  #3E3E3E;
+    font-size: 16px;
+}
